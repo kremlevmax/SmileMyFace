@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D92CC26F1E7E9BD50018DD64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CC26E1E7E9BD50018DD64 /* AppDelegate.swift */; };
-		D92CC2711E7E9BD50018DD64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CC2701E7E9BD50018DD64 /* ViewController.swift */; };
+		D92CC2711E7E9BD50018DD64 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CC2701E7E9BD50018DD64 /* FaceViewController.swift */; };
 		D92CC2741E7E9BD50018DD64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92CC2721E7E9BD50018DD64 /* Main.storyboard */; };
 		D92CC2761E7E9BD50018DD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92CC2751E7E9BD50018DD64 /* Assets.xcassets */; };
 		D92CC2791E7E9BD50018DD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92CC2771E7E9BD50018DD64 /* LaunchScreen.storyboard */; };
+		D92CC2841E7FDED30018DD64 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CC2831E7FDED30018DD64 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D92CC26B1E7E9BD50018DD64 /* FaceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92CC26E1E7E9BD50018DD64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D92CC2701E7E9BD50018DD64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D92CC2701E7E9BD50018DD64 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		D92CC2731E7E9BD50018DD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D92CC2751E7E9BD50018DD64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D92CC2781E7E9BD50018DD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D92CC27A1E7E9BD50018DD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92CC2831E7FDED30018DD64 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		D92CC26D1E7E9BD50018DD64 /* FaceView */ = {
 			isa = PBXGroup;
 			children = (
-				D92CC26E1E7E9BD50018DD64 /* AppDelegate.swift */,
-				D92CC2701E7E9BD50018DD64 /* ViewController.swift */,
+				D92CC2801E7FD4610018DD64 /* Supporting files */,
+				D92CC2831E7FDED30018DD64 /* FaceView.swift */,
+				D92CC2701E7E9BD50018DD64 /* FaceViewController.swift */,
 				D92CC2721E7E9BD50018DD64 /* Main.storyboard */,
+			);
+			path = FaceView;
+			sourceTree = "<group>";
+		};
+		D92CC2801E7FD4610018DD64 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D92CC26E1E7E9BD50018DD64 /* AppDelegate.swift */,
 				D92CC2751E7E9BD50018DD64 /* Assets.xcassets */,
 				D92CC2771E7E9BD50018DD64 /* LaunchScreen.storyboard */,
 				D92CC27A1E7E9BD50018DD64 /* Info.plist */,
 			);
-			path = FaceView;
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92CC2711E7E9BD50018DD64 /* ViewController.swift in Sources */,
+				D92CC2711E7E9BD50018DD64 /* FaceViewController.swift in Sources */,
 				D92CC26F1E7E9BD50018DD64 /* AppDelegate.swift in Sources */,
+				D92CC2841E7FDED30018DD64 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
